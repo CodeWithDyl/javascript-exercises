@@ -1,5 +1,5 @@
-const removeFromArray = function() {
-
+const removeFromArray = function (array, removed = "") {
+  array.pop(removed);
 };
 
 // Do not edit below this line
